@@ -127,3 +127,62 @@ public class goal {
     }
 }
 
+public class exercise {
+
+    // Attributes
+    private int ID;
+    private int sets;
+    private int reps;
+    private int weight;
+    private String name;
+
+    // Constructor
+    public exercise(int ID, int sets, int reps, int weight, String name) {
+        this.ID = ID;
+        this.sets = sets;
+        this.reps = reps;
+        this.weight = weight;
+        this.name = name;
+    }
+
+    // Getters and setters
+    public int getID() {
+        return ID;
+    }
+
+    public int getSets() {
+        return sets;
+    }
+
+    public int getReps() {
+        return reps;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public void setSets(int sets) {
+        this.sets = sets;
+    }
+
+    public void setReps(int reps) {
+        this.reps = reps;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}

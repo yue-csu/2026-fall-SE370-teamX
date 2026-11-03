@@ -1,3 +1,5 @@
+public class Main {
+
 //CLASSES
 public class Workout {
     // Attributes
@@ -181,6 +183,29 @@ public class exercise {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+
+
+
+    //SECURITY SYSTEM
+    public static String hashPass(String password) {
+        return Integer.toString(password.hashCode());
+    }
+
+    public static boolean authenticatePass(String enteredPass, String hashedPass) {
+        return hashPass(enteredPass).equals(hashedPass);
+    }
+
+    public static void main(String[] args) {
+
+        String password = "MyPassword123"; //Example password++++++++++++++++++++++++++++
+
+        String hashedPassword = hashPass(password);
+
+        boolean authenticated = authenticatePass(password, hashedPassword);
+
+        System.out.println(authenticated);
+    }
+}
 
     public void setName(String name) {
         this.name = name;

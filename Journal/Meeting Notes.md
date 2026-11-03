@@ -6,7 +6,7 @@ Sprint 1:
 - What: Trello progress, task allocation, road mapping, UI design, architecture
 
 Sprint 2:
-- When: 11/2/2026 2:20 - 
+- When: 11/2/2026 2:20 - 3:00
 - Who: Mason L Holden, Pedro Curiel, Malik Mitchell, Darryl Hutagaol
 - Where: in-person
 - What: Progress (login UI, initial classes), logistics planning, task allocation

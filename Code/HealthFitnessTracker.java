@@ -6,7 +6,7 @@ public class Workout {
     private int ID;
     private int userID;
     private String date;
-    private String notes
+    private String notes;
 
     //Constructor
     public Workout(int ID, int userID, String date, String notes){
@@ -28,7 +28,7 @@ public class Workout {
         return date;
     }
 
-    public int getNotes(){
+    public String getNotes(){
         return notes;
     }
 
@@ -67,7 +67,7 @@ public class goal {
         this.userID = userID;
         this.targetValue = targetValue;
         this.currentValue = currentValue;
-        this.targetDate = targetDate
+        this.targetDate = targetDate;
         this.type = type;
         this.status = status;
     }
